@@ -18,7 +18,7 @@ export async function GET() {
 				image:
 					"https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZsb3dlcnN8ZW58MHx8MHx8fDA%3D",
 				username: "Atwiine Stephen",
-			}), // Replace 'argument' with the actual argument you want to pass
+			}),
 		});
 		return NextResponse.json(data);
 	} catch (error) {
